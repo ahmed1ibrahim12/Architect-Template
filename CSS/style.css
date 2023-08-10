@@ -114,6 +114,7 @@ hr{
     padding-top: 2rem;
     filter: grayscale(75%);
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card-about{
@@ -186,4 +187,40 @@ footer{
 
 footer a{
     color: white;
+}
+
+/********media********/
+@media screen and (max-width: 425px) {
+    .navbar div{
+        display: none !important;
+    }
+    .header{
+        margin: 1rem 0;
+        height: 300px;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .card-about{
+        width: 100%;
+    }
+    .card-about-container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header{
+        margin: 1rem 0;
+        height: 400px;
+    }
+    .card{
+        width: 49%;
+    }
+    .card-about{
+        width: 49%;
+    }
 }
