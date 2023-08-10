@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    scroll-margin: 4rem;
+}
+
+/********navbar********/
+.nav-container{
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    letter-spacing: 4px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0.5rem;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.navbar a , .navbar div{
+    color: black;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: #ccc;
+}
+
+.navbar span{
+    font-weight: bold;
+}
+
+/********header********/
+main{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    height: 800px;
+    background-image: url(../Images/architect.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header p{
+    color: white;
+    font-size: xx-large !important;
+    letter-spacing: 4px;
+}
+
+.header span{
+    font-size: 36px!important;
+    color: #fff!important;
+    background-color: #353738;
+    padding: 10px;
+    font-weight: 400;
+}
+
+/********Projects********/
+.container{
+    margin-top: 4rem !important;
+}
+.title{
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+}
+
+hr{
+    margin: 1rem 0;
+    color: #f1f1f1fb !important;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-title{
+    position: absolute;
+    color: white;
+    line-height: 22.5px;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: black;
+    padding: 0.5rem 1rem;
+}
+
+.card{
+    position: relative;
+    width: 24.99999%;
+    margin-bottom: 16px!important;
+    padding: 0 8px;
+}
+
+/********About********/
+.card-about-container{
+    padding-top: 2rem;
+    filter: grayscale(75%);
+    display: flex;
+}
+
+.card-about{
+    width: 24.99999%;
+    padding: 0 8px;
+    margin-bottom: 16px!important;
+}
+
+.card-about-title{
+    font-size: 24px;
+    line-height: 36px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.job{
+    font-family:  Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.contact-button{
+    width: 100%;
+    text-align: center;
+    color: #000!important;
+    background-color: #f1f1f1!important;
+    border: none;
+    padding: 5px;
+}
+
+.contact-button:hover{
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+/********contact********/
+input{
+    width: 100%;
+    border: 1px solid #ccc!important;
+    padding: 8px;
+    overflow: visible;
+}
+
+button{
+    color: #fff!important;
+    background-color: #000!important;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+button:hover {
+    color: #000!important;
+    background-color: #ccc!important;
+}
+
+/********contact********/
+footer{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+footer a{
+    color: white;
+}
