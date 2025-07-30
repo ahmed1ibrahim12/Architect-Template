@@ -92,6 +92,7 @@ header span {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  margin: 2rem 0;
 }
 
 /* Projects */
@@ -101,6 +102,7 @@ header span {
   overflow: hidden;
   transition: 0.3s ease-in-out;
   opacity: 0.9;
+  cursor: pointer;
 }
 
 .project img {
