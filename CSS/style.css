@@ -61,7 +61,12 @@ header h1 {
   color: #f1f1f1;
 }
 
+header b {
+  font-size: 36px;
+}
+
 header span {
+  font-size: 36px;
   background-color: #000;
   color: #fff;
   padding: 8px 16px;
@@ -195,6 +200,7 @@ header span {
   border: none;
   padding: 12px 20px;
   cursor: pointer;
+  width: fit-content;
   transition: 0.3s ease-in-out !important;
 }
 
