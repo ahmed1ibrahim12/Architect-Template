@@ -48,7 +48,7 @@ html {
 
 /* Hero */
 header {
-  background: url(/Images/architect.jpg) center/cover no-repeat;
+  background: url("../Images//architect.jpg") center/cover no-repeat;
   min-height: 70vh;
   display: flex;
   justify-content: center;
